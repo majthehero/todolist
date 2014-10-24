@@ -1,56 +1,79 @@
+/* COLOR PALLETE ********************************************************/
+/* to so barve ospredja */
+.white {
+    color: white;
+}
+.purple {
+    color: #680148;
+}
+.black {
+  color: black;
+}
+.blue-dark {
+  color: #7DB4B5;
+}
+.blue-light {
+  color: #E0EFF1;
+}
+
+/* to so barve ozadja */
+.b-white {
+    background-color: white;
+}
+.b-purple {
+    background-color: #680148;
+}
+.b-black {
+    background-color: black;
+}
+.b-blue-dark {
+    background-color: #7DB4B5;
+}
+.b-blue-light {
+    background-color: #E0EFF1;
+}
+
+
+/* LOGIN PAGE ONLY ******************************************************/
 .login {
-	background-color: #caDEAD;
 	font-family: "serif";
 	margin: auto;
 	font-size: 20pt;
 }
-
 div.login {
 	width: 30%;
 }
-
 form.login {
 	width: 80%;
 }
-
-
 input.input {
 	width: 100%;
 	font-size: 20pt;
 }
 
+
+/* COMMON ***************************************************************/
 html, body {
 	height: 99%;
+} 
+header {
+	font-family: sans-serif;
+	padding: 4%;
+	padding-left: 15%;
 }
-
-
-
-.addtask {
-	background-color: #caDEAD;
+footer {
+	font-family: sans-serif;
+	padding: 4%;
+	padding-left: 15%;
 }
-
-div.addtask {
-    padding: 1%;
-    margin: 1%;
-	border-color: #CAA;
-	border-style: solid;
-	border-width: 1px;
+article {
+  height: 100%;
+	padding: 5%;
+	font-family: sans-serif;
 }
-
-.addtaskelement {
-    padding-right: 3%;
-    
-}
-
-textarea {
-  width: 80%;
-}
-
 #container-out {
 	height: 100%;
 }
-
-
 #container {
 	min-width: 480px;
 	/*max-width: 1300px;*/
@@ -58,84 +81,54 @@ textarea {
 	width: 90%;
 	margin: auto;
 }
-
-#head {
-	background-color: #DEADac;
-	color: #747;
-	font-family: sans-serif;
-	padding: 4%;
-	padding-left: 15%;
-}
-
 #logo {
   float: left;
   width: 64px;
   
 }
 
-header {
-	background-color: #DEADac;
-	color: #747;
-	font-family: sans-serif;
-	padding: 4%;
-	padding-left: 15%;
-}
 
-footer {
-	background-color: #DEADac;
-	color: #747;
-	font-family: sans-serif;
-	padding: 4%;
-	padding-left: 15%;
+/* MAIN PAGE ONLY *******************************************************/
+.addtask {
 }
-
-article {
-	background-color: #FDEADF;
-	height: 100%;
-	padding: 5%;
-	font-family: sans-serif;
+div.addtask {
+    padding: 1%;
+    margin: 1%;
+	border-style: solid;
+	border-width: 1px;
 }
-
+.addtaskelement {
+    padding-right: 3%;
+    
+}
+textarea {
+  width: 80%;
+} 
 .task {
 	float: left;
-	background-color: #caDEAD;
 	width: 18%;
 	min-width: 112px;
 	max-width: 220px;
 	margin: 1%;
-	border-color: #CAA;
 	border-style: solid;
 	border-width: 1px;
 }
-
-
-
 a.delete {
-	color: #FFEFBD
 }
 a.delete:hover {
-	color: #E30;	
 }
-
-
 a.edit	{
   float: right;
 }
 a.edit {
-	color: #FFEFBD
 }
 a.edit:hover {
-	color: #E30;	
 }
-
-
-
 h1 {
 	font-family: sans-serif;
 	font-size: 18pt;
 	font-weight: lighter;
 }
-
 p.todo {
 	font-family: serif;
 	font-size: 14pt;
@@ -143,5 +136,5 @@ p.todo {
 	margin: 15px;
 	border-bottom-style: solid;
 	border-width: 1px;
-	border-color: #c4D6A7;
 }
+
