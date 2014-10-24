@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="todo01.css">
+	<title>ToDo List</title>
+	<meta charset="utf-8" />
+</head>
+
+
+<html>
+<body>
+<div id="container-out">
+<div id="container">
+	<header>
+		<img id="logo" src="todo_logo.png" alt="Logo TODOLIST" si />
+		<h1>ToDo List</h1>	
+	</header>
+
+
+	<article>
+		<div class="addtask">
+			<form  id="addtaskform">
+			  <nobr class="addtaskelement">
+			    Add task: <input type="text" name="taskname"/>
+			  </nobr>
+			  <nobr class="addtaskelement">
+			    Priority: <input type="radio" name="priority" value="1"/>1 
+				      <input type="radio" name="priority" value="2"/>2 
+				      <input type="radio" name="priority" value="3"/>3 
+				      <input type="radio" name="priority" value="4"/>4 
+				      <input type="radio" name="priority" value="5"/>5
+			  </nobr>
+			  <nobr class="addtaskelement">
+			    Deadline: <input type="date" name="daedline"/>
+			  </nobr>
+			  <nobr class="addtaskelement">
+			    Opis: <textarea form="addtaskform" rows=2  placeholder="Task description"> </textarea>
+			  </nobr>
+			  <input class="addtaskelement" type="submit" value="Add task"/> 
+			</form>
+		</div>
+
+		<div class="task">
+			<h2>Task 1</h2>
+			<ul>Subtask 1</ul>
+			<ul>Subtask 2</ul>
+			<ul>Subtask 3</ul>
+			<a class="delete" href="main.html">Delete</a>
+			<a class="edit" href="main.html">Edit</a>
+			
+		</div>
+		
+		<div class="task">
+			<h2>Task 2</h2>
+			<ul>Subtask 1</ul>
+			<ul>Subtask 2</ul>
+			<ul>Subtask 3</ul>
+		</div>
+		
+		<div class="task">
+			<h2>Task 3</h2>
+			<ul>Subtask 1</ul>
+			<ul>Subtask 2</ul>
+			<ul>Subtask 3</ul>
+			<ul>Subtask 4</ul>
+			<ul>Subtask 5</ul>
+			<ul>Subtask 6</ul>
+			<ul>Subtask 7</ul>
+		</div>
+		
+		<div class="task">
+			<h2>Task 4</h2>
+			<ul>Subtask 1</ul>
+			<ul>Subtask 2</ul>
+		</div>
+		
+		<div class="task">
+			<h2>Task 5</h2>
+			<ul>Subtask 1</ul>
+			<ul>Subtask 2</ul>
+			<ul>Subtask 3</ul>
+			<ul>Subtask 4</ul>
+		</div>
+	</article>
+
+
+	<footer>
+	Copyright &copy; crappySoft, inc. &trade;&reg;
+	</footer>
+
+</div>
+</div>
+</body>
+</html>
