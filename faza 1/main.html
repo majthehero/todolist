@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
 	<link rel="stylesheet" type="text/css" href="todo01.css">
 	<title>ToDo List</title>
@@ -6,12 +7,11 @@
 </head>
 
 
-<html>
 <body>
 <div id="container-out">
 <div id="container">
 	<header class="b-purple white">
-		<img id="logo" src="todo_logo.png" alt="Logo TODOLIST" si />
+		<img id="logo" src="todo_logo.png" alt="Logo TODOLIST" />
 		<h1>ToDo List</h1>	
 	</header>
 
@@ -19,67 +19,81 @@
 	<article class="b-blue-light">
 		<div class="addtask b-blue-dark white">
 			<form  id="addtaskform">
-			  <nobr class="addtaskelement">
+			  <span class="addtaskelement">
 			    Add task: <input type="text" name="taskname"/>
-			  </nobr>
-			  <nobr class="addtaskelement">
+			  </span>
+			  <span class="addtaskelement">
 			    Priority: <input type="radio" name="priority" value="1"/>1 
 				      <input type="radio" name="priority" value="2"/>2 
 				      <input type="radio" name="priority" value="3"/>3 
 				      <input type="radio" name="priority" value="4"/>4 
 				      <input type="radio" name="priority" value="5"/>5
-			  </nobr>
-			  <nobr class="addtaskelement">
+			  </span>
+			  <span class="addtaskelement">
 			    Deadline: <input type="date" name="daedline"/>
-			  </nobr>
-			  <nobr class="addtaskelement">
+			  </span>
+			  <span class="addtaskelement">
 			    Opis: <textarea form="addtaskform" rows=2  placeholder="Task description"> </textarea>
-			  </nobr>
+			  </span>
 			  <input class="addtaskelement" type="submit" value="Add task"/> 
 			</form>
 		</div>
 
 		<div class="task b-blue-dark white">
 			<h2>Task 1</h2>
-			<ul>Subtask 1</ul>
-			<ul>Subtask 2</ul>
-			<ul>Subtask 3</ul>
+			<ul>
+			<li>Subtask 1</li>
+			<li>Subtask 2</li>
+			<li>Subtask 3</li>
+			</ul>
 			<a class="delete purple" href="main.html">Delete</a>
 			<a class="edit purple" href="main.html">Edit</a>
-			
 		</div>
 		
-		<div class="task ">
-			<h2>Task 2</h2>
-			<ul>Subtask 1</ul>
-			<ul>Subtask 2</ul>
-			<ul>Subtask 3</ul>
+		<div class="task b-blue-dark white">
+			<h2>Task 1</h2>
+			<ul>
+			<li>Subtask 1</li>
+			<li>Subtask 2</li>
+			<li>Subtask 3</li>
+			</ul>
+			<a class="delete purple" href="main.html">Delete</a>
+			<a class="edit purple" href="main.html">Edit</a>
 		</div>
 		
-		<div class="task">
-			<h2>Task 3</h2>
-			<ul>Subtask 1</ul>
-			<ul>Subtask 2</ul>
-			<ul>Subtask 3</ul>
-			<ul>Subtask 4</ul>
-			<ul>Subtask 5</ul>
-			<ul>Subtask 6</ul>
-			<ul>Subtask 7</ul>
+		<div class="task b-blue-dark white">
+			<h2>Task 1</h2>
+			<ul>
+			<li>Subtask 1</li>
+			<li>Subtask 2</li>
+			<li>Subtask 3</li>
+			</ul>
+			<a class="delete purple" href="main.html">Delete</a>
+			<a class="edit purple" href="main.html">Edit</a>
 		</div>
 		
-		<div class="task">
-			<h2>Task 4</h2>
-			<ul>Subtask 1</ul>
-			<ul>Subtask 2</ul>
+		<div class="task b-blue-dark white">
+			<h2>Task 1</h2>
+			<ul>
+			<li>Subtask 1</li>
+			<li>Subtask 2</li>
+			<li>Subtask 3</li>
+			</ul>
+			<a class="delete purple" href="main.html">Delete</a>
+			<a class="edit purple" href="main.html">Edit</a>
 		</div>
 		
-		<div class="task">
-			<h2>Task 5</h2>
-			<ul>Subtask 1</ul>
-			<ul>Subtask 2</ul>
-			<ul>Subtask 3</ul>
-			<ul>Subtask 4</ul>
+		<div class="task b-blue-dark white">
+			<h2>Task 1</h2>
+			<ul>
+			<li>Subtask 1</li>
+			<li>Subtask 2</li>
+			<li>Subtask 3</li>
+			</ul>
+			<a class="delete purple" href="main.html">Delete</a>
+			<a class="edit purple" href="main.html">Edit</a>
 		</div>
+		
 	</article>
 
 
