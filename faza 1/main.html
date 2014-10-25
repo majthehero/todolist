@@ -20,7 +20,7 @@
 		<div class="addtask b-blue-dark white">
 			<form  id="addtaskform">
 			  <span class="addtaskelement">
-			    Add task: <input type="text" name="taskname"/>
+			    Add task: <input type="text" name="taskname" placeholder="Trainspotting"/>
 			  </span>
 			  <span class="addtaskelement">
 			    Priority: <input type="radio" name="priority" value="1"/>1 
@@ -32,8 +32,11 @@
 			  <span class="addtaskelement">
 			    Deadline: <input type="date" name="daedline"/>
 			  </span>
+			  <span>
+			    Category: <input type="text" name="category" placeholder="General" />
+			  </span>
 			  <span class="addtaskelement">
-			    Opis: <textarea form="addtaskform" rows=2  placeholder="Task description"> </textarea>
+			    Opis: <textarea form="addtaskform" rows=2  placeholder="It's dull, dull, dull!"> </textarea>
 			  </span>
 			  <input class="addtaskelement" type="submit" value="Add task"/> 
 			</form>
