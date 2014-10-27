@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="todo01.css">
-	<title>ToDo List: log in</title>
+	<title>ToDo List: stats</title>
 	<meta charset="utf-8" />
 </head>
 
@@ -11,17 +11,55 @@
 <div id="container" class="b-blue-light">
 	<header class="b-purple white">
 		<img src="todo_logo.png" alt="Logo TODOLIST" id="logo"/>
-		<h1>ToDo List</h1>	
+		<h1>ToDo List</h1>
+		<ul class="menu b-blue-dark ">
+			<li class="menu">
+				<a href="dayplan.html">  Home  </a>
+			</li>
+			<li class="menu">
+				<a href="categories.html">  Categories  </a>
+			</li>
+			<li class="menu">
+				<a href="stats.html">  Stats  </a>
+			</li>
+			<li class="menu">
+				<a href="login.html">  Logout  </a>
+			</li>
+		</ul>
 	</header>
 	
+    <!-- TO JE PLACEHOLDER -->
 	<div id="content">
-		
+        <div class="statsall">
+            <h2>Graph of activity</h2>
+            <div class="statsgraph">
+                <img src="graf_placeholder.png" />
+            </div>
+            <!-- TO JE PLACEHOLDER ZA STATISTIČNE PODATKE -->
+            <div class="b-blue-dark statsbox" >
+                <h3 class="b-purple white">Tasks done on time:</h3>
+                <p>15</p>
+                <h3 class="b-purple white">Dealines missed:</h3>
+                <p>15</p>
+                <h3 class="b-purple white">Success rate:</h3>
+                <p>15%</p>
+                <h3 class="b-purple white">Achievements unlocked:</h3>
+                <ul>
+                    <li>Procrastinator: missed 15 dealines</li>
+                    <li>Almost there: success rate over 80%</li>
+                </ul>
+            </div>
+        </div>
 	</div>
+    
+    
 	
 	<footer class="b-purple white">
-		<span>copyright &copy; crappySoft, inc. &reg;&trade;</span>
-		<span id="mail" >Contact: <a href="mailto:maj.smerkol@gmail.com">
-		e-mail: maj.smerkol@gmail.com</a></span>
+		<span class="copyright">copyright &copy; crappySoft, inc. &reg;&trade;</span>
+		<div class="mail">
+			Contact e-mail:
+			<a href="mailto:maj.smerkol@gmail.com">maj.smerkol@gmail.com</a>
+		</div>
 	</footer>
 
 

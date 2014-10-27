@@ -50,7 +50,7 @@ div#container {
     
 	width:80%;
 	min-width:600px;
-	max-width: 1200px;
+	max-width: 1600px;
 
 	height:auto !important; /* real browsers */
 	height:100%; /* IE6: treaded as min-height*/
@@ -85,7 +85,7 @@ li.menu {
 
 /* CONTENT */
 div#content {
-	padding:1em 1em 20em; /* bottom padding for footer */
+	padding:1em 1em 5em; /* bottom padding for footer */
 }
 div#content p {
         text-align:justify;
@@ -117,6 +117,7 @@ a:visited {
 
 .category {
 	clear: both;
+    overflow: hidden;
 }
 
 /* login only */
@@ -154,4 +155,33 @@ footer .copyright {
 footer .mail {
 	float: right;
 	padding-right: 5em;
+}
+
+.plan {
+    overflow: hidden;
+    clear: both;
+}
+
+#graph {
+    height: 480px;
+    width: 600px;
+    margin:0 auto;
+}
+
+.statsbox {
+    float: right;
+    width: 30%
+}
+
+.statsall {
+    overflow: hidden;
+}
+
+.statsgraph {
+    float:left;
+    width: 60%;
+}
+
+.statsachievements {
+    max-width: 80%
 }
