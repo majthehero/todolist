@@ -11,7 +11,8 @@
 	color: black;
 }
 .blue-dark {
-	color: #7DB4B5;
+	/*color: #7DB4B5;*/
+    color: #799;
 }
 .blue-light {
 	color: #E0EFF1;
@@ -28,7 +29,8 @@
 	background-color: black;
 }
 .b-blue-dark {
-	background-color: #7DB4B5;
+	/*background-color: #7DB4B5;*/
+    background-color: #799;
 }
 .b-blue-light {
 	background-color: #E0EFF1;
@@ -62,7 +64,7 @@ div#container {
 /* TOP  ELEMENTS */
 /* HEADER */
 header {
-	padding-left:5em;
+	padding-left: 5em;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-right: 5em;
@@ -71,25 +73,28 @@ header {
 	width: 64px;
 	float: left;
 }
-.menu {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-li.menu {
-	display: inline;
-	padding-left: 15%;
+div.menu {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
 }
 
+div.menu span {
+	display: table-cell;
+    text-align: center;
+}
 
 
+.bar {
+    margin: 1%;
+}
 /* CONTENT */
-div#content {
+div.content {
 	padding:1em 1em 5em; /* bottom padding for footer */
 }
-div#content p {
-        text-align:justify;
-        padding:0 1em;
+div.content p {
+    text-align:justify;
+    padding:0 1em;
 }
 
 .task {
@@ -159,7 +164,6 @@ footer .mail {
 
 .plan {
     overflow: hidden;
-    clear: both;
 }
 
 #graph {
@@ -169,6 +173,7 @@ footer .mail {
 }
 
 .statsbox {
+    margin: 1%;
     float: right;
     width: 30%
 }
@@ -178,6 +183,7 @@ footer .mail {
 }
 
 .statsgraph {
+    margin: 1%;
     float:left;
     width: 60%;
 }
@@ -185,3 +191,57 @@ footer .mail {
 .statsachievements {
     max-width: 80%
 }
+
+.addtask {
+    margin: 1%;
+}
+
+.addtaskelement {
+    white-space: nowrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    display: inline-block;
+}
+
+
+
+.addtaskbar {
+    
+}
+
+
+
+
+
+.longtextinput {
+    width: auto
+}
+
+
+
+
+
+
+/*
+
+<header class="b-purple white">
+		<img src="todo_logo.png" alt="Logo TODOLIST" id="logo"/>
+		<h1>ToDo List</h1>
+		<ul class="menu b-blue-dark ">
+			<li class="menu">
+				<a href="dayplan.html">  Home  </a>
+			</li>
+			<li class="menu">
+				<a href="categories.html">  Categories  </a>
+			</li>
+			<li class="menu">
+				<a href="stats.html">  Stats  </a>
+			</li>
+			<li class="menu">
+				<a href="login.html">  Logout  </a>
+			</li>
+		</ul>
+	</header>
+
+*/
