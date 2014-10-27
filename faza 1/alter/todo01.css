@@ -1,0 +1,157 @@
+/* ALTER */
+/* COLOR PALLETE ********************************************************/
+/* to so barve ospredja */
+.white {
+	color: white;
+}
+.purple {
+	color: #680148;
+}
+.black {
+	color: black;
+}
+.blue-dark {
+	color: #7DB4B5;
+}
+.blue-light {
+	color: #E0EFF1;
+}
+
+/* to so barve ozadja */
+.b-white {
+	background-color: white;
+}
+.b-purple {
+	background-color: #680148;
+}
+.b-black {
+	background-color: black;
+}
+.b-blue-dark {
+	background-color: #7DB4B5;
+}
+.b-blue-light {
+	background-color: #E0EFF1;
+}
+
+
+/* WHOLE PAGE */
+html,body {
+	margin:0;
+	padding:0;
+	height:100%; /* needed for container min-height */
+
+	font-family:arial,sans-serif;
+}
+
+div#container {
+	position:relative; /* needed for footer positioning*/
+	margin:0 auto; /* center, not in IE5 */
+    
+	width:80%;
+	min-width:600px;
+	max-width: 1200px;
+
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+
+	min-height:100%; /* real browsers */
+}
+
+
+/* TOP  ELEMENTS */
+/* HEADER */
+header {
+	padding-left:5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 5em;
+}
+#logo {
+	width: 64px;
+	float: left;
+}
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li.menu {
+	display: inline;
+	padding-left: 15%;
+}
+
+
+
+/* CONTENT */
+div#content {
+	padding:1em 1em 20em; /* bottom padding for footer */
+}
+div#content p {
+        text-align:justify;
+        padding:0 1em;
+}
+
+.task {
+	width: 18%;
+	margin-left: 1%;
+	margin-right: 1%;
+	float: left;
+	margin-bottom: 2em;
+}
+.edit {
+	float: right;
+}
+a:link {
+	color: #E0EFF1;
+}
+a:hover {
+	color: #F1E0E0;
+}
+a:active {
+	color: #E0EFF1;
+}
+a:visited {
+	color: #E0EFF1;
+}
+
+.category {
+	clear: both;
+}
+
+/* login only */
+h3 {
+    width: 100%;
+}
+div.login {
+	margin:0 auto;
+	width: 33%;
+	padding: 1em;
+    padding-top: 0em;
+}
+div.register {
+	margin-top: 5%;
+}
+input.input {
+	width: 90%;
+	margin-left: 4%;
+}
+
+
+/* FOOTER */
+footer {
+	position:absolute;
+	width:100%;
+	bottom:0; /* stick to bottom */
+	padding-top: 1em;
+	padding-bottom: 1em;
+	
+}
+footer .copyright {
+	padding-left:5em;
+	margin:0;
+}
+footer .mail {
+	float: right;
+	padding-right: 5em;
+}
